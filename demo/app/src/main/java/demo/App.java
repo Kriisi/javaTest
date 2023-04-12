@@ -6,9 +6,12 @@ import java.io.FileReader;
 import java.util.Scanner;
 
 public class App {
+    public String getGreeting() {
+        return "Hello World!";
+    } 
 
     public static void main(String[] args) {
-        Filter filter = new Filter();
+        Filter filter = new Tehtavalista();
         Scanner keybReader = new Scanner(System.in);
         FileReader file = new FileReader(null);
 
